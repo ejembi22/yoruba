@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.sign_image1{
+    width: 100%;
+    background-color: dodgerblue;
+}
+
+body{
+    height: 100%;
+}
+
+.container3{
+    background-image: url(assets/images/spec.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.register{
+    border-radius: 40px;
+    width: 80%;
+    height:700px ;
+    padding-left: 2em !important;
+    padding-top: 2em !important;
+    margin-inline: auto !important;
+    box-shadow: 0 4px 10px rgba(34, 34, 34, 0.3);
+    background-color: transparent !important;
+}
+
+.input_filed1{
+    width: 90%;
+    height: 50px;
+    border-radius: 15px;
+    outline: none;
+    border: none;
+}
+
+.create_button{
+    width: 90%;
+    height:55px;
+    border-radius: 20px;
+    font-family: "Mulish", sans-serif, Arial, Helvetica, serif;
+    background-color: dodgerblue;
+    border: none;
+}
+
+@media (min-width:730px) and (max-width:1200px){
+    .sign_image1{
+        display: none;
+
+
+    }
+
+    
+.container3{
+    height: 100vh;
+}
+
+}
+
+
+@media (max-width:600px){
+       .sign_image1{
+        display: none;
+
+
+    }
+
+    
+.container3{
+    height: 100vh;
+}
+}
+

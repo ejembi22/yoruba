@@ -1,0 +1,92 @@
+*{
+    margin: 0 !important;
+    padding: 0 !important;
+    box-sizing: border-box;   
+}
+
+body{
+height: 100%;
+    
+
+}
+
+.sigin_image{
+    width: 100%;
+    background-color: dodgerblue;
+}
+.container2{
+    background-image: url(assets/images/spec.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.forms{
+    border-radius: 22px;
+    width: 70%;
+    height: 300px;
+    padding-left: 2em !important;
+    padding-top: 3em !important;
+    margin-inline: auto !important;
+    box-shadow: 0 4px 10px rgba(34, 34, 34, 0.3);
+    background-color: transparent !important;
+    
+}
+
+.input_field{
+    width: 90%;
+    height: 40px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+   
+}
+
+.login{
+    font-size: 40px;
+    font-size: "mulish";
+}
+
+.login_button{
+    width: 90%;
+    height: 40px;
+}
+
+
+@media (min-width:730px) and (max-width:992px){
+    .login_details{
+        width: 100%;
+        margin-left: 0em !important;        
+        
+    }
+    .sigin_image{
+        display: none;
+    }
+    .container2{    
+        height: 100vh;
+        
+    }
+
+
+}
+
+@media (max-width:600px){
+    .login_details{
+        width: 100%;
+        margin-left: 0em !important;        
+        
+    }
+
+    .sigin_image{
+        display: none;
+    }
+    .container2{    
+        height: 100vh;
+        
+    }
+
+   
+}
+
+
